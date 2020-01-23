@@ -1,0 +1,40 @@
+   <!--start card-list-->
+                        <div class="card-list card-item">
+                          <div class="list-group">
+                            <div class="item active">
+                              <a href="" class="link-list ">
+                                <img src="./img/home-icom.svg">
+                                الرئيسيه
+
+                              </a>
+                            </div>
+                            
+                            <div class="item">
+                              <a href="" class="link-list">
+                                <img src="./img/requests-icon.svg">
+                                الطلبات
+
+                              </a>
+                            </div>
+                            <div class="item">
+                              <a href="" class="link-list">
+                                <img src="./img/financials-icon.svg">
+                                المعاملات المالية
+                              </a>
+                            </div>
+                            <div class="item">
+                              <a href="" class="link-list">
+                                <img src="./img/support-icon.svg">
+                                الدعم
+
+                              </a>
+                            </div>
+                            <div class="item">
+                              <a href="" class="link-list">
+                                <img src="./img/settings-icon.svg">
+                                الإعدادات
+
+                              </a>
+                            </div>
+                          </div>
+                        </div>

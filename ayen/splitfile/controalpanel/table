@@ -1,0 +1,67 @@
+ <div class="content-controal">
+                      <!--start card top-->
+                        <div class="title">لوحة التحكم</div>
+                        
+                        <div class="card">
+                            <div class="item-card card-item">
+                              <div class="info-item">
+                                <p class="num">15</p>
+                                <span class="info">طلب مفتوح </span>
+                              </div>
+                            </div>
+                            <div class="item-card card-item">
+                              <div class="info-item">
+                                <p class="num">60</p>
+                                <span class="info">تقرير منجز</span>
+                              </div>
+                            </div>
+                            <div class="item-card card-item">
+                              <div class="info-item">
+                                <p class="num"><span class="small">ريال</span>15,242</p>
+
+                                <span class="info">إجمالي المبلغ المستحق</span>
+                              </div>
+                            </div>
+                        </div>
+                        <!--start-end-card-->
+                        <!-- start table-->
+                        <div class="table card-item">
+                          <h3 class="title-table">احدث الطلبات</h3>
+                              <div class="our-row table-head">
+                                <div class="our-cell">رقم الشكوى</div>
+                                <div class="our-cell">رقم العقد</div>
+                                <div class="our-cell">اسم العميل</div>
+                                <div class="our-cell">تاريخ الطلب</div>
+                                <div class="our-cell">حالة الطلب</div>
+                              </div>
+                              <div class="our-row">
+                                <div class="our-cell">123456</div>
+                                <div class="our-cell">987654</div>
+                                <div class="our-cell">محمد عبد الكريم</div>
+                                <div class="our-cell">25 اكتوبر 2020</div>
+                                <div class="our-cell"><button class="btn btn-color btn-danger">قيد المعالجة</button></div>
+                              </div>
+                              <div class="our-row">
+                                <div class="our-cell">123456</div>
+                                <div class="our-cell">987654</div>
+                                <div class="our-cell">محمد عبد الكريم</div>
+                                <div class="our-cell">25 اكتوبر 2020</div>
+                                <div class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></div>
+                              </div>
+                              <div class="our-row">
+                                <div class="our-cell">123456</div>
+                                <div class="our-cell">987654</div>
+                                <div class="our-cell">محمد عبد الكريم</div>
+                                <div class="our-cell">25 اكتوبر 2020</div>
+                                <div class="our-cell"><button class="btn btn-color btn-success">تم التسليم</button></div>
+                              </div>
+                              <div class="our-row">
+                                <div class="our-cell">123456</div>
+                                <div class="our-cell">987654</div>
+                                <div class="our-cell">محمد عبد الكريم</div>
+                                <div class="our-cell">25 اكتوبر 2020</div>
+                                <div class="our-cell"><button class="btn btn-color btn-info">مغلق</button></div>
+                              </div>
+                            
+                            </div>
+                        </div><!--end table-->

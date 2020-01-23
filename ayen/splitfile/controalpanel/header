@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!--font custom-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap&subset=arabic"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/home/home.css" />
+  </head>
+  <body>
+      <!--top-header -->
+      <div class="top-header">
+          <div class="container">
+            <div class="col-md-12">
+                <div class="social-media"style="text-align: left;" >
+                    <ul>
+                        <li class="phone-number">
+                              +966 55 212 6565 
+                           </li>
+                        <li><a href=""><img src="./img/whatsapp-icon (1).svg"></a></li>
+                        <li><a href=""><img src="./img/twitter-logo (2).svg"/></a></li>
+                        <li><a href=""><img src="./img/instagram-logo (2).svg"/></a></li>
+                        <li><a href=""><img src="./img/linkedin-logo.svg"/></a></li>
+            
+                    </ul>
+                </div>
+              </div>
+          </div>
+          
+      </div>
+      <div class="clear-fix"></div>
+    <!--header-->
+    <div class="header" id="header">
+      <div class="container">
+        <div class="content-header">
+          <ul class="nav">
+            <li><a href="">عن عاين</a></li>
+            <li><a href="">حساب تكلفة الفحص</a></li>
+            <li><a href="">المدونة</a></li>
+            <li><a href="">تواصل معنا</a></li>
+            <li><a href="">حساب جديد</a></li>
+            <li><button class="btn btn-brimary">تسجيل الدخول</button></li>
+          </ul>
+          <div class="logo">
+            <img src="./img/ayen-logo.svg" alt="logo" draggable="false" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end header-->

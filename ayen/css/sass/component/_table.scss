@@ -1,15 +1,37 @@
 .table {
-padding: 30px;
+  padding:15px 0;
+  .title-table{
+    font-weight: bold;
+    font-size: $font-size-lg;
+    padding-right:30px;
+    margin-bottom: 15px;
+  }
   .our-row {
     display: grid;
     width: 100%;
     grid-row-gap: 1px;
     grid-template-columns: repeat(5, 1fr);
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid $gray-light-0;
+    grid-auto-rows: minmax(50px, auto);
+    font-size: 11px;
+    color: #707585;
+    align-items: center;
 
+    .our-cell {
+      align-items: center;
+      padding: 10px 30px 10px 10px;
+    }
   }
 }
 
 .our-row.table-head {
-  background: red;
+  background: $gray-light-2;
+  color: #111934;
+  font-weight: bold;
+  align-items: center;
+  grid-auto-rows: minmax(5px, auto);
+  padding: 0 !important;
+  border-left: 1px solid #CFD1D6;
+  border-right: 1px solid #CFD1D6;
 }
+

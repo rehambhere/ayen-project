@@ -31,8 +31,9 @@
             text-decoration: none;
             padding: 25px 15px;
             display: block;
-            &:hover,&:active{
-              color:$blue-bold
+            &:hover,
+            &:active {
+              color: $blue-bold;
             }
           }
         }
