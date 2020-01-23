@@ -1,0 +1,15 @@
+.table {
+padding: 30px;
+  .our-row {
+    display: grid;
+    width: 100%;
+    grid-row-gap: 1px;
+    grid-template-columns: repeat(5, 1fr);
+    border-bottom: 1px solid red;
+
+  }
+}
+
+.our-row.table-head {
+  background: red;
+}

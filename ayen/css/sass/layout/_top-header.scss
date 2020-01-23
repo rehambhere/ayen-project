@@ -1,0 +1,30 @@
+.top-header {
+  height: 30px;
+  background-color: $yallow-light;
+  position: relative;
+  z-index: 1000;
+  .social-media {
+    @include social-media;
+    margin-left: 50px;
+    ul {
+      li {
+          
+        a {
+          padding: 3px;
+          img {
+            width: 12px;
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+li.phone-number {
+    direction: ltr;
+    font-weight: normal;
+    color:$blue-bold;
+    font-size: $font-size;
+  }
+

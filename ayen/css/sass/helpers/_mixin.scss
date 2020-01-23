@@ -1,0 +1,80 @@
+/*prefix*/
+@mixin prefixer($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-'+$prefix+'-'+$property}: $value;
+  }
+  #{$property}: $value;
+}
+
+// @mixin font-face {
+//   @font-face {
+
+//     font-family: 'Cairo';
+//     src: url("../../../fonts/Cairo-Regular.ttf") format("truetype");
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+// }
+
+@mixin list {
+  ul {
+    list-style: none;
+    li {
+      font-size: $font-size;
+      font-weight: normal;
+      padding-bottom: 10px;
+      a {
+        color: $white;
+        text-transform: none;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@mixin social-media {
+  ul {
+    list-style: none;
+    li {
+        display: inline-block;
+      a {
+        text-transform: none;
+        text-decoration: none;
+        padding:5px;
+        cursor: pointer;
+        img {
+            width: 15px;
+          }
+      }
+      
+    }
+  }
+}
+
+@mixin phone-number {
+    .phone-number{
+        direction: ltr;
+        font-weight: normal;
+        color:$blue-bold;
+        font-size: $font-size;
+    }
+    
+}
+
+
+@mixin margin-left{
+  margin-left:30px
+}
+
+@mixin margin-right{
+  margin-right:30px
+}
+
+@mixin margin-bottom{
+  margin-bottom:30px
+}
+
+@mixin margin-top{
+  margin-top:30px
+}

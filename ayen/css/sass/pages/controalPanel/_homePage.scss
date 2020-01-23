@@ -1,0 +1,66 @@
+.content {
+  display: flex;
+  align-items: stretch;
+
+  .main-plane {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    .nav-sidebar {
+      display: flex;
+      flex-flow: column;
+      .card-top {
+        @include margin-bottom;
+        flex-basis: 100px;
+        text-align: center;
+        line-height: 75px;
+        width:210px
+
+      }
+      .card-list {
+        flex-basis: 200px;
+        flex-basis: 200px;
+      }
+    }
+    .content-controal {
+      flex-grow: 7;
+      align-items: stretch;
+      display: flex;
+      flex-flow: column;
+      @include margin-right;
+      .title {
+        font-weight: bold;
+        @include margin-top;
+        font-size: $font-size-lg;
+      }
+      .card {
+        display: flex;
+        width: 100%;
+        @include margin-top;
+        .item-card {
+          min-height: 100px;
+          flex-basis: 33.33%;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          .top{
+              font-size: $font-size-lg2;
+              font-weight:bold;
+          }
+          .sub{
+              font-size: $font-size;
+              color:$gray-light;
+              font-weight:bold;
+
+          }
+        }
+        :not(:last-child) {
+          @include margin-left;
+        }
+      }
+      .table {
+          @include margin-top;
+      }
+    }
+  }
+}

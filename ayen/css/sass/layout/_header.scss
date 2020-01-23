@@ -1,0 +1,48 @@
+// .upper-bar {
+//   background-color: $yallow-custom;
+//   font-family: 'Cairo';
+
+// }
+
+/*header*/
+.header {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fff;
+  z-index: 100000;
+  position: relative;
+  margin-bottom: 30px;
+  .container {
+    .content-header {
+      overflow: hidden; //to solve float proplem
+      height: 76px;
+
+      .logo {
+        width: 40%;
+        float: right;
+      }
+      .nav {
+        width: 60%;
+        float: left;
+        list-style: none;
+        li {
+          display: inline-block;
+          a {
+            text-decoration: none;
+            padding: 25px 15px;
+            display: block;
+            &:hover,&:active{
+              color:$blue-bold
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 2px 8px $gray-light;
+}

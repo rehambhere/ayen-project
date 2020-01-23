@@ -1,0 +1,28 @@
+/* The alert message box */
+.alert {
+    padding: 5px;
+    background-color:$light-error2; /* Red */
+    color: $light-error;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:1px solid $light-error;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: $light-error;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color:black}
