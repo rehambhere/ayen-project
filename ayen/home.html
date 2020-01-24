@@ -10,14 +10,15 @@
       href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap&subset=arabic"
       rel="stylesheet"
     />
-
+<!--botstrap css file-->
+      <link rel="stylesheet" href="./css/app.css">
     <link rel="stylesheet" href="./css/home/home.css" />
   </head>
   <body>
       <!--top-header -->
       <div class="top-header">
           <div class="container">
-            <div class="col-md-12">
+            <div class="col-md-12-c">
                 <div class="social-media"style="text-align: left;" >
                     <ul>
                         <li class="phone-number">
@@ -57,135 +58,155 @@
 
     <!--start card-->
     <section class="content">
-            <div class="container">
-                <div class="main-plane">
-                  <!--start nav-sidbar-->
-                    <div class="nav-sidebar">
-                        <div class="nav-sidebar-card card-item">
+         <div class="container">
+            <div class="main-plane-controaller">
+                <div class="row">
+                    <div class="col-md-3 p-l-r">
+                       <div class="col-md-12">
+                        <div class="card-item side-nav">
                             <div class="top">
                                 <img src="./img/inspector-avatar.png">
                                 <span class="sub">اسم الشخصي</span>
                             </div>
                         </div>
-                        <!--start card-list-->
-                        <div class="card-list card-item">
-                          <div class="list-group">
-                            <div class="item active">
-                              <a href="" class="link-list ">
-                                <img src="./img/home-icom.svg">
-                                الرئيسيه
-
-                              </a>
-                            </div>
-                            
-                            <div class="item">
-                              <a href="" class="link-list">
-                                <img src="./img/requests-icon.svg">
-                                الطلبات
-
-                              </a>
-                            </div>
-                            <div class="item">
-                              <a href="" class="link-list">
-                                <img src="./img/financials-icon.svg">
-                                المعاملات المالية
-                              </a>
-                            </div>
-                            <div class="item">
-                              <a href="" class="link-list">
-                                <img src="./img/support-icon.svg">
-                                الدعم
-
-                              </a>
-                            </div>
-                            <div class="item">
-                              <a href="" class="link-list">
-                                <img src="./img/settings-icon.svg">
-                                الإعدادات
-
-                              </a>
-                            </div>
-                          </div>
+                       </div>
+                       <div class="col-md-12">
+                        <div class=" card-item card-list">
+                            <ul class="list-group">
+                                <li class="item ">
+                                  <a href="#" class="link-list active ">
+                                    <img src="./img/home-icom.svg">
+                                        الرئيسية
+                                  </a>
+                                </li>
+                                
+                                <li class="item">
+                                  <a href="#" class="link-list" >
+                                    <img src="./img/requests-icon.svg">
+                                    الطلبات
+    
+                                  </a>
+                                </li>
+                                <li class="item">
+                                  <a href="#" class="link-list">
+                                    <img src="./img/financials-icon.svg">
+                                    المعاملات المالية
+                                  </a>
+                                </li>
+                                <li class="item">
+                                  <a href="#" class="link-list">
+                                    <img src="./img/support-icon.svg">
+                                    الدعم
+    
+                                  </a>
+                                </li>
+                                <li class="item">
+                                  <a href="#" class="link-list">
+                                    <img src="./img/settings-icon.svg">
+                                    الإعدادات
+    
+                                  </a>
+                                </li>
+                              </ul>
                         </div>
+                       </div>
                     </div>
-                    <!--end nav-sidbar-->
-                    <div class="content-controal">
-                      <!--start card top-->
-                        <div class="title">لوحة التحكم</div>
-                        
-                        <div class="card">
-                            <div class="item-card card-item">
-                              <div class="info-item">
-                                <p class="num">15</p>
-                                <span class="info">طلب مفتوح </span>
-                              </div>
-                            </div>
-                            <div class="item-card card-item">
-                              <div class="info-item">
-                                <p class="num">60</p>
-                                <span class="info">تقرير منجز</span>
-                              </div>
-                            </div>
-                            <div class="item-card card-item">
-                              <div class="info-item">
-                                <p class="num"><span class="small">ريال</span>15,242</p>
+                    <div class="col-md-8">
+                        <div class="main-controaller-content">
+                            
+                            <div class="col-md-12">
+                                <!--start card top-->
+                                <div class="title">لوحة التحكم</div>
+                           </div>
+                           <div class="col-md-12">
+                               <div class="card">
+                                   <div class="item-card card-item col-md-4">
+                                       <div class="info-item">
+                                         <p class="num">15</p>
+                                         <span class="info">طلب مفتوح </span>
+                                       </div>
+                                     </div>
+                                     <div class="item-card card-item col-md-4">
+                                       <div class="info-item">
+                                         <p class="num">60</p>
+                                         <span class="info">تقرير منجز</span>
+                                       </div>
+                                     </div>
+                                     <div class="item-card card-item col-md-4">
+                                       <div class="info-item">
+                                         <p class="num"><span class="small">ريال</span>15,242</p>
+         
+                                         <span class="info">إجمالي المبلغ المستحق</span>
+                                       </div>
+                                     </div>
 
-                                <span class="info">إجمالي المبلغ المستحق</span>
-                              </div>
+                                
+                                   </div>
+                                  
+                               </div>
+                        
+                            <div class="col-md-12">
+                                <div class="table">
+                                       <!-- start table-->
+                    <div class="table card-item">
+                        <h3 class="title-table">احدث الطلبات</h3>
+                            <div class="our-row table-head">
+                              <div class="our-cell">رقم الشكوى</div>
+                              <div class="our-cell">رقم العقد</div>
+                              <div class="our-cell">اسم العميل</div>
+                              <div class="our-cell">تاريخ الطلب</div>
+                              <div class="our-cell">حالة الطلب</div>
+                            </div>
+                            <div class="our-row">
+                              <div class="our-cell">123456</div>
+                              <div class="our-cell">987654</div>
+                              <div class="our-cell">محمد عبد الكريم</div>
+                              <div class="our-cell">25 اكتوبر 2020</div>
+                              <div class="our-cell"><button class="btn btn-color btn-danger">قيد المعالجة</button></div>
+                            </div>
+                            <div class="our-row">
+                              <div class="our-cell">123456</div>
+                              <div class="our-cell">987654</div>
+                              <div class="our-cell">محمد عبد الكريم</div>
+                              <div class="our-cell">25 اكتوبر 2020</div>
+                              <div class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></div>
+                            </div>
+                            <div class="our-row">
+                              <div class="our-cell">123456</div>
+                              <div class="our-cell">987654</div>
+                              <div class="our-cell">محمد عبد الكريم</div>
+                              <div class="our-cell">25 اكتوبر 2020</div>
+                              <div class="our-cell"><button class="btn btn-color btn-success">تم التسليم</button></div>
+                            </div>
+                            <div class="our-row">
+                              <div class="our-cell">123456</div>
+                              <div class="our-cell">987654</div>
+                              <div class="our-cell">محمد عبد الكريم</div>
+                              <div class="our-cell">25 اكتوبر 2020</div>
+                              <div class="our-cell"><button class="btn btn-color btn-info">مغلق</button></div>
+                            </div>
+                          
+                          </div>
+                      </div><!--end table-->
+                                </div>
+                            </div>
+                
+                                    
+                                </div>
                             </div>
                         </div>
-                        <!--start-end-card-->
-                        <!-- start table-->
-                        <div class="table card-item">
-                          <h3 class="title-table">احدث الطلبات</h3>
-                              <div class="our-row table-head">
-                                <div class="our-cell">رقم الشكوى</div>
-                                <div class="our-cell">رقم العقد</div>
-                                <div class="our-cell">اسم العميل</div>
-                                <div class="our-cell">تاريخ الطلب</div>
-                                <div class="our-cell">حالة الطلب</div>
-                              </div>
-                              <div class="our-row">
-                                <div class="our-cell">123456</div>
-                                <div class="our-cell">987654</div>
-                                <div class="our-cell">محمد عبد الكريم</div>
-                                <div class="our-cell">25 اكتوبر 2020</div>
-                                <div class="our-cell"><button class="btn btn-color btn-danger">قيد المعالجة</button></div>
-                              </div>
-                              <div class="our-row">
-                                <div class="our-cell">123456</div>
-                                <div class="our-cell">987654</div>
-                                <div class="our-cell">محمد عبد الكريم</div>
-                                <div class="our-cell">25 اكتوبر 2020</div>
-                                <div class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></div>
-                              </div>
-                              <div class="our-row">
-                                <div class="our-cell">123456</div>
-                                <div class="our-cell">987654</div>
-                                <div class="our-cell">محمد عبد الكريم</div>
-                                <div class="our-cell">25 اكتوبر 2020</div>
-                                <div class="our-cell"><button class="btn btn-color btn-success">تم التسليم</button></div>
-                              </div>
-                              <div class="our-row">
-                                <div class="our-cell">123456</div>
-                                <div class="our-cell">987654</div>
-                                <div class="our-cell">محمد عبد الكريم</div>
-                                <div class="our-cell">25 اكتوبر 2020</div>
-                                <div class="our-cell"><button class="btn btn-color btn-info">مغلق</button></div>
-                              </div>
-                            
-                            </div>
-                        </div><!--end table-->
+
+                        </div>
+                        
                     </div>
                 </div>
-         </div>
     </section>
    
     <!--end -->
     <!--start footer--->
     <section class="footer">
         <div class="container">
-                  <div class="copy-right">
+            <div class="copy-right">
               <div class="col-md-6">
                   <div class="copy-writer">
                     <p>جميع الحقوق محفوظة لمؤسسة عاين لتقنية نظم المعلومات © 2019</p>
@@ -208,7 +229,8 @@
    
    </section>
    <!--end footer-->
-
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
    <script src="./js/main.js"></script>
   </body>
 </html>

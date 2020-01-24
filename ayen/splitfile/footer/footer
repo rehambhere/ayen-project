@@ -1,7 +1,7 @@
  <!--start footer--->
     <section class="footer">
         <div class="container">
-              <div class="col-lg-3 first-list">
+              <div class="col-lg-3-c first-list">
                 <h2>تصفح الموقع</h2>
                 <ul>
                     <li><a href="">عن عاين</a></li>
@@ -12,7 +12,7 @@
                     <li><a href="">اطلب خدمة</a></li>
                 </ul>
               </div>
-              <div class="col-lg-3 second-list">
+              <div class="col-lg-3-c second-list">
                   <h2>روابط هامة</h2>
                   <ul>
                     <li><a href="">الاسئلة الشائعة</a></li>
@@ -24,7 +24,7 @@
                 </ul>
 
               </div>
-              <div class="col-lg-3 therd-list">
+              <div class="col-lg-3-c therd-list">
                 <h2>مقرنا الرئيسي</h2>
                 <ul>
                  <li>طارق بن زياد-حي البركة الجنوبية 3241</li>
@@ -33,7 +33,7 @@
 
               </ul>
               </div>
-              <div class="col-lg-3 fourth-list">
+              <div class="col-lg-3-c fourth-list">
                   <h2>للتواصل والاستفسار</h2>
                   <ul>
                   <li style="direction: ltr;">
@@ -52,13 +52,13 @@
 
           <div class="clear-fix"></div>
           <div class="copy-right">
-              <div class="col-md-6">
+              <div class="col-md-6-c">
                   <div class="copy-writer">
                     <p>جميع الحقوق محفوظة لمؤسسة عاين لتقنية نظم المعلومات © 2019</p>
 
                   </div>
               </div>
-              <div class="col-md-6" >
+              <div class="col-md-6-c" >
                 <div class="social-media"style="text-align: left;" >
               
                     <ul>

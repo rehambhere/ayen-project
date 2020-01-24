@@ -1,119 +1,107 @@
-.content {
-  display: flex;
-  align-items: stretch;
-
-  .main-plane {
+.main-plane-controaller {
+  .p-l-r{
+      padding:0 30px;
+      margin-top: 25px;
+  }
+.side-nav {
+  margin-bottom: 15px;
+  padding: 15px 0;
+  .top {
+    img {
+      width: 20%;
+    }
+    .sub {
+      margin-top: 8px;
+    }
     display: flex;
-    width: 95%;
-    justify-content: space-between;
-    .nav-sidebar {
-      display: flex;
-      flex-flow: column;
-      flex-grow: 4;
-      .nav-sidebar-card {
-        @include margin-bottom;
-        .top {
-          img {
-            width: 20%;
-          }
-          .sub {
-            margin-top: 8px;
-          }
-          display: flex;
-          flex-flow: column;
-          justify-content: center;
-          align-items: center;
-          font-size: 12px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+.card-list {
+  flex-basis: 200px;
+  padding: 15px 0;
+
+  .list-group {
+    .item {
+      list-style: none;
+      a {
+        display: block;
+      }
+      .link-list {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: $font-size;
+        transition: all 0.5s ease-in-out;
+        color: $blue-bold;
+
+        &:active {
+          background-color: $gray-light-2;
           font-weight: bold;
         }
-      }
-      .card-list {
-        flex-basis: 200px;
-        flex-basis: 200px;
-        .list-group {
-          display: grid;
-          grid-template-rows: repeat(50px, auto);
-          grid-auto-rows: minmax(30px, auto);
-
-          align-items: center;
-          .item {
-            padding: 10px 30px 10px 10px;
-            transition: all .7s ease-in-out;
-            display: block;
-            overflow: hidden;
-            &.active {
-              background-color: $gray-light-2;
-              border-right: 1px solid $yallow-border;
-            }
-            &:hover {
-              background-color: $gray-light-2;
-              border-right: 1px solid $yallow-border;
-              font-weight: bold;
-
-            }
-
-            a {
-              text-decoration: none;
-              font-size: 13px;
-              color: $blue-bold;
-           
-              img {
-                width: 15px;
-                margin-left: 3px;
-              }
-            }
-          }
+        &:hover {
+          font-weight: bold;
+          color: $blue-bold;
+          background-color: $gray-light-2;
+          border-right: 2px solid $yallow-border;
         }
-      }
-    }
-    .content-controal {
-      flex-grow: 6;
-      align-items: stretch;
-      display: flex;
-      flex-flow: column;
-      @include margin-right;
-      .title {
-        font-weight: bold;
-        @include margin-top;
-        font-size: $font-size-lg;
-      }
-      .card {
-        display: flex;
-        width: 100%;
-        @include margin-top;
-        .item-card {
-          flex-basis: 33.33%;
-          display: flex;
-          flex-flow: column;
-          justify-content: center;
-          .info-item {
-            padding-right: 30px;
-            direction: rtl;
-
-            .num {
-              font-size: $font-size-lg1;
-              font-weight: bold;
-              display: inline;
-              .small {
-                font-size: 15px !important;
-                display: inline;
-              }
-            }
-            .info {
-              font-size: $font-size;
-              color: $gray-light;
-              font-weight: bold;
-              margin-top: 12px;
-            }
-          }
+        img {
+          margin-left: 5px;
+          width: 18px;
         }
-        :not(:last-child) {
-          @include margin-left;
-        }
-      }
-      .table {
-        @include margin-top;
       }
     }
   }
 }
+.main-controaller-content-top{
+.title {
+  font-weight: bold;
+  @include margin-top;
+  font-size: $font-size-lg;
+}
+}
+.main-controaller-content {
+ 
+  .card {
+    display: flex;
+    width: 100%;
+    @include margin-top;
+    .item-card {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      padding: 15px 0;
+
+      .info-item {
+        padding-right: 15px;
+        direction: rtl;
+
+        .num {
+          font-size: $font-size-lg1;
+          font-weight: bold;
+          display: inline;
+          .small {
+            font-size: 15px !important;
+            display: inline;
+          }
+        }
+        .info {
+          font-size: $font-size;
+          color: $gray-light;
+          font-weight: bold;
+          margin-top: 12px;
+        }
+      }
+    }
+    :not(:last-child) {
+      @include margin-left;
+    }
+  }
+}
+}
+
