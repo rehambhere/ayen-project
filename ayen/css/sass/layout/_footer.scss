@@ -1,5 +1,6 @@
 .footer {
   background-color: $main-color;
+  padding: 20px 0;
   // padding: 40px 0;
   overflow: hidden;
   color: $white;
@@ -23,7 +24,7 @@
       padding-bottom: 10px;
     }
     ul li {
-      padding-bottom: 5px;
+      padding-bottom: 15px;
     }
   }
   .fourth-list {
@@ -49,9 +50,10 @@
     .social-media {
       @include social-media;
       margin-left: 50px;
+
+      @include maxMedum {
+        text-align: left;
+      }
     }
   }
 }
-
-  
-

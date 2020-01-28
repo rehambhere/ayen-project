@@ -16,6 +16,9 @@
   font-size: 14px;
   line-height: 1.42857143;
   border-radius: 6px;
+  &:hover {
+    color: $white;
+  }
 }
 .btn-color {
   color: $white;
@@ -23,15 +26,15 @@
   padding: 4px 8px;
   font-size: 12px;
 }
-.btn-warning {
+.btn-warning-c {
   background: $btn-warning;
 }
-.btn-danger {
+.btn-danger-c {
   background: $btn-danger;
 }
-.btn-success {
+.btn-success-c {
   background: $btn-success;
 }
-.btn-info {
+.btn-info-c {
   background: $btn-info;
 }

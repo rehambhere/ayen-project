@@ -37,57 +37,54 @@
       </div>
       <div class="clear-fix"></div>
     <!--header-->
-    <div class="header" id="header">
-      <div class="container">
-        <div class="content-header">
-          <ul class="nav">
-            <li><a href="">عن عاين</a></li>
-            <li><a href="">حساب تكلفة الفحص</a></li>
-            <li><a href="">المدونة</a></li>
-            <li><a href="">تواصل معنا</a></li>
-            <li><a href="">حساب جديد</a></li>
-            <li><button class="btn btn-brimary">تسجيل الدخول</button></li>
-          </ul>
-          <div class="logo">
-            <img src="./img/ayen-logo.svg" alt="logo" draggable="false" />
+      <nav class="navbar navbar-default header">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="logo">
+              <img src="./img/ayen-logo.svg" alt="logo" draggable="false" />
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+
+              <li class="">
+                <a href="#" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/notification-icon.svg" class="notfication">
+                   <span class="badge badge-pill badge-danger">3</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">الرئيسية</a></li>
+              <li><a href="#"><img src="/img/inspector-avatar-heder.png" class="avater"></a></li>
+              </ul>
+  
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+   
     <!--end header-->
 
     <!--start card-->
     <section class="content">
          <div class="container">
-             <div class="main-controaller-content-top">
-                <div class="col-md-6-l">
-                    <!--start card top-->
-                    <div class="title">لوحة التحكم</div>
-               </div>
-                <div class="col-md-6-l">
-                    <div class="col-md-4">
-                     <ul class="breadcrumb-custom">
-                         <li><a href="">الرئيسية<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
-                            <li><a href="">الطلبات</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-8">
-                     <form class="navbar-form navbar-left" role="search">
-                         <div class="form-group">
-                           <input type="text" name="serche" class="form-control" placeholder="..ابحث عن">
-                         </div>
-                         <button type="submit" class="btn btn-warning">بحث</button>
-                       </form>
-                    </div>
-                   
-               
-            </div>
-             </div>
            
-               
             <div class="main-plane-controaller">
-                    <div class="col-md-3 p-l-r">
-                       <div class="col-md-12">
+                    <div class="col-md-3">
+                       <div class="col-md-12 hidden-xs hidden-sm">
                         <div class="card-item side-nav">
                             <div class="top">
                                 <img src="./img/inspector-avatar.png">
@@ -95,7 +92,7 @@
                             </div>
                         </div>
                        </div>
-                       <div class="col-md-12">
+                       <div class="col-md-12 hidden-xs">
                         <div class=" card-item card-list">
                             <ul class="list-group">
                                 <li class="item ">
@@ -138,9 +135,33 @@
                     </div>
                   
 
-                    <div class="col-md-8">
+                    <div class="col-md-9">
+                      <div class="main-controaller-content-top">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <!--start card top-->
+                            <div class="title">لوحة التحكم</div>
+                       </div>
+                        <div class="col-md-12">
+                            <div class="col-md-3 col-sm-12">
+                             <ul class="breadcrumb-custom">
+                                 <li><a href="">الرئيسية<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
+                                    <li><a href="">الطلبات</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-9 col-xm-12">
+                             <form class="navbar-form navbar-left" role="search">
+                                 <div class="form-group">
+                                   <input type="text" name="serche" class="form-control" placeholder="..ابحث عن">
+                                 </div>
+                                 <button type="submit" class="btn btn-warning">بحث</button>
+                               </form>
+                            </div>
+                           
+                       
+                    </div>
+                     </div>
                         <div class="main-controaller-content">
-                            <div class="col-md-12">
+                            <div class="col-md-12 col-xs-12">
                                 <div class="table">
                                        <!-- start table-->
                     <div class="table card-item">

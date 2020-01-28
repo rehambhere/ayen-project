@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!--font custom-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap&subset=arabic"
+      rel="stylesheet"
+    />
+<!--botstrap css file-->
+      <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/requestPage/requestPage.css" />
+
+  </head>
+  <body>
+      <!--top-header -->
+  <div class="top-header">
+    <div class="container">
+      <div class="col-md-12">
+          <div class="social-media"style="text-align: left;" >
+              <ul>
+                  <li class="phone-number">
+                        +966 55 212 6565 
+                     </li>
+                  <li><a href=""><img src="./img/whatsapp-icon (1).svg"></a></li>
+                  <li><a href=""><img src="./img/twitter-logo (2).svg"/></a></li>
+                  <li><a href=""><img src="./img/instagram-logo (2).svg"/></a></li>
+                  <li><a href=""><img src="./img/linkedin-logo.svg"/></a></li>
+      
+              </ul>
+          </div>
+        </div>
+    </div>
+    
+</div>
+<div class="clear-fix"></div>
+<!--header-->
+<!--start nav-->
+<nav class="navbar navbar-default header custom-navbar  sidebarNavigation" id="offcanvas-sidebar">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <!-- <img src="/img/arrow-breadcrumbs-icon (1).svg"  class="navbar-toggle collapsed closebtn" onclick="openNav()" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> -->
+      <button type="button" class="navbar-toggle collapsed closebtn"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="logo">
+        <img src="./img/ayen-logo.svg" alt="logo" draggable="false" />
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-left">
+
+        <li class="logout-dropdown">
+          <a href="#" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <img src="img/notification-icon.svg" class="notfication">
+             <span class="badge badge-pill badge-danger">3</span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="logout">
+              <img src="/img/logout-icon.svg" class="logout-icon">
+              <span>تسجيل الخروج</span>
+            </a>
+            </li>
+      
+          </ul>
+        </li>
+        <li><a href="#">اسم الشركة</a></li>
+        <li><a href="#"><img src="/img/inspector-avatar-heder.png" class="avater"></a></li>
+        </ul>
+
+        
+      </div>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+    <!--start card-->
+    <section class="content">
+      <div class="container">
+
+            <div class="main-plane-controaller">
+                    <div class="col-md-3 col-sm-12  reset-padd-bootstrap-media">
+                       <div class="col-md-12 hidden-xs hidden-sm">
+                        <div class="info-item side-nav">
+                            <div class="top">
+                                <img src="./img/inspector-avatar.png">
+                                <span class="sub">اسم الشخصي</span>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="col-md-12 col-sm-12 reset-padd-bootstrap-media">
+                        <div class=" info-item card-list">
+                            <ul class="list-group">
+                                <li class="item ">
+                                  <a href="#" class="link-list active ">
+                                    <img src="./img/home-icom.svg">
+                                        الرئيسية
+                                  </a>
+                                </li>
+                                
+                                <li class="item">
+                                  <a href="#" class="link-list" >
+                                    <img src="./img/requests-icon.svg">
+                                    الطلبات
+    
+                                  </a>
+                                </li>
+                                <li class="item">
+                                  <a href="#" class="link-list">
+                                    <img src="./img/financials-icon.svg">
+                                    المعاملات المالية
+                                  </a>
+                                </li>
+                                <li class="item">
+                                  <a href="#" class="link-list">
+                                    <img src="./img/support-icon.svg">
+                                    الدعم
+    
+                                  </a>
+                                </li>
+                                <li class="item">
+                                  <a href="#" class="link-list">
+                                    <img src="./img/settings-icon.svg">
+                                    الإعدادات
+    
+                                  </a>
+                                </li>
+                              </ul>
+                        </div>
+                       </div>
+                    </div>
+                  
+
+                    <div class="col-md-9">
+                      <div class="main-controaller-content">
+                            
+                        <div class="col-md-12">
+                            <!--start card top-->
+                              <div class="title">لوحة التحكم</div>
+
+                       </div>
+                       <div class="col-md-12">
+                               <div class="row">
+                                <div class=" card-item col-md-4 col-sm-12">
+                                  <div class="info-item">
+                                    <p class="num">15</p>
+                                    <span class="info">طلب مفتوح </span>
+                                  </div>
+                                </div>
+                                <div class=" card-item col-md-4 col-sm-12">
+                                  <div class="info-item">
+                                    <p class="num">60</p>
+                                    <span class="info">تقرير منجز</span>
+                                  </div>
+                                </div>
+                                <div class=" card-item col-md-4 col-sm-12">
+                                  <div class="info-item">
+                                    <p class="num"><span class="small">ريال</span>15,242</p>
+    
+                                    <span class="info">إجمالي المبلغ المستحق</span>
+                                  </div>
+                               </div>
+          
+                            
+                               </div>
+                              
+                           </div>
+                        <div class="main-controaller-content">
+                            <div class="col-md-12 col-sm-d col-xs-12 reset-padd-bootstrap-media">
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th class="our-cell">رقم الشكوى</th>
+                                    <th class="our-cell">رقم العقد</th>
+                                    <th class="our-cell">اسم العميل</th>
+                                    <th class="our-cell">تاريخ الطلب</th>
+                                    <th class="our-cell">حالة الطلب</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="our-cell">123456</td>
+                                    <td class="our-cell">987654</td>
+                                    <td class="our-cell">محمد عبد الكريم</td>
+                                    <td class="our-cell">25 اكتوبر 2020</td>
+                                    <td class="our-cell"><button class="btn btn-color btn-danger">قيد المعالجة</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="our-cell">123456</td>
+                                    <td class="our-cell">987654</td>
+                                    <td class="our-cell">محمد عبد الكريم</td>
+                                    <td class="our-cell">25 اكتوبر 2020</td>
+                                    <td class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="our-cell">123456</td>
+                                    <td class="our-cell">987654</td>
+                                    <td class="our-cell">محمد عبد الكريم</td>
+                                    <td class="our-cell">25 اكتوبر 2020</td>
+                                    <td class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="our-cell">123456</td>
+                                    <td class="our-cell">987654</td>
+                                    <td class="our-cell">محمد عبد الكريم</td>
+                                    <td class="our-cell">25 اكتوبر 2020</td>
+                                    <td class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="our-cell">123456</td>
+                                    <td class="our-cell">987654</td>
+                                    <td class="our-cell">محمد عبد الكريم</td>
+                                    <td class="our-cell">25 اكتوبر 2020</td>
+                                    <td class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></td>
+                                  </tr>     
+                                
+                                </tbody>
+                              </table><!--end table-->
+                                </div>
+                            </div>
+                
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                      </div>     
+                    </div>
+    </section>
+   
+    <!--end -->
+    <!--start footer--->
+    <section class="footer">
+        <div class="container">
+            <div class="copy-right">
+              <div class="col-md-6">
+                  <div class="copy-writer">
+                    <p>جميع الحقوق محفوظة لمؤسسة عاين لتقنية نظم المعلومات © 2019</p>
+
+                  </div>
+              </div>
+              <div class="col-md-6" >
+                <div class="social-media"style="text-align: left;" >
+              
+                    <ul>
+                        <li><a href=""><img src="./img/twitter-logo (1).svg"/></a></li>
+                        <li><a href=""><img src="./img/instagram-logo (1).svg"/></a></li>
+                        <li><a href=""><img src="./img/linkedin-logo (2).svg"/></a></li>
+            
+                    </ul>
+                </div>
+              </div>
+          </div>
+        
+   
+   </section>
+   <!--end footer-->
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   
+   <script src="./js/main.js"></script>
+  <script src="/js/sidebarNavigation.js"></script>
+
+  </body>
+</html>
+
+
+
+
+<div class="row">
+            <div class="logo col-sm-2 col-md-8">
+              <img src="./img/ayen-logo.svg" alt="logo" draggable="false" />
+
+            </div>
+            <div class="col-md-4 col-sm-2 ">
+              <ul class="nav navbar-nav navbar-left">
+      
+                <li class="logout-dropdown">
+                  <a href="#" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <img src="img/notification-icon.svg" class="notfication">
+                     <span class="badge badge-pill badge-danger">3</span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="logout">
+                      <img src="/img/logout-icon.svg" class="logout-icon">
+                      <span>تسجيل الخروج</span>
+                    </a>
+                    </li>
+              
+                  </ul>
+                </li>
+                <li><a href="#">اسم الشركة</a></li>
+                <li><a href="#"><img src="/img/inspector-avatar-heder.png" class="avater"></a></li>
+                </ul>
+            </div>
+           </div>

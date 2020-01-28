@@ -15,6 +15,17 @@
 //     font-style: normal;
 //   }
 // }
+@mixin maxMedum {
+  @media (min-width: $maxwidthMobile) {
+    @content;
+  }
+}
+
+@mixin MaxLg {
+  @media (max-width: $minWidth) {
+    @content;
+  }
+}
 
 @mixin list {
   ul {
@@ -22,7 +33,7 @@
     li {
       font-size: $font-size;
       font-weight: normal;
-      padding-bottom: 10px;
+      padding-bottom: 20px;
       a {
         color: $white;
         text-transform: none;
@@ -37,44 +48,41 @@
   ul {
     list-style: none;
     li {
-        display: inline-block;
+      display: inline-block;
       a {
         text-transform: none;
         text-decoration: none;
-        padding:5px;
+        padding: 5px;
         cursor: pointer;
         img {
-            width: 15px;
-          }
+          width: 15px;
+        }
       }
-      
     }
   }
 }
 
 @mixin phone-number {
-    .phone-number{
-        direction: ltr;
-        font-weight: normal;
-        color:$blue-bold;
-        font-size: $font-size;
-    }
-    
+  .phone-number {
+    direction: ltr;
+    font-weight: normal;
+    color: $blue-bold;
+    font-size: $font-size;
+  }
 }
 
-
-@mixin margin-left{
-  margin-left:30px
+@mixin margin-left {
+  margin-left: 30px;
 }
 
-@mixin margin-right{
-  margin-right:30px
+@mixin margin-right {
+  margin-right: 30px;
 }
 
-@mixin margin-bottom{
-  margin-bottom:30px
+@mixin margin-bottom {
+  margin-bottom: 30px;
 }
 
-@mixin margin-top{
-  margin-top:30px
+@mixin margin-top {
+  margin-top: 30px;
 }

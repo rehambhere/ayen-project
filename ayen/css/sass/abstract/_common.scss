@@ -8,6 +8,13 @@
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+h3,
+h1,
+h2,
+h4,
+h5 {
+  font-family: "Cairo";
+}
 
 .container {
   width: 80%;
@@ -16,62 +23,67 @@
 /*margin*/
 body {
   background-color: #f5f5f5;
+  font-family: "Cairo";
+}
+.reset-padd-bootstrap {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.col-lg-3 {
-  width: 25%;
-  float: right;
-}
-.col-md-3 {
-  float: right;
-  width: 25%;
-  padding: 0;
-}
-.col-md-7 {
-  width: 58.33333333%;
-  float: right;
-}
-.col-md-5 {
-  width: 41.66666667%;
-  float: right;
-}
+// .col-lg-3 {
+//   width: 25%;
+//   float: right;
+// }
+// .col-md-3 {
+//   float: right;
+//   width: 25%;
+//   padding: 0;
+// }
+// .col-md-7 {
+//   width: 58.33333333%;
+//   float: right;
+// }
+// .col-md-5 {
+//   width: 41.66666667%;
+//   float: right;
+// }
 
-.p-l-r {
-  padding: 0 30px;
-}
-.col-md-6 {
-  width: 50%;
-  float: right;
-}
-.col-md-6-l {
-  width: 75%;
-  float: left;
-}
-.col-md-12 {
-  width: 100%;
-  padding: 0;
-}
-.nav-tabs >li{
-  float:right
-}
-.col-md-8 {
-  float: right;
-  width: 66.66666667%;
-  padding: 0;
-}
-.col-md-4 {
-  float: right;
-  width: 33.33%;
-  padding: 0;
-}
+// .p-l-r {
+//   padding: 0 30px;
+// }
+// .col-md-6 {
+//   width: 50%;
+//   float: right;
+// }
+// .col-md-6-l {
+//   width: 75%;
+//   float: left;
+// }
+// .col-md-12 {
+//   width: 100%;
+//   padding: 0;
+// }
+// .nav-tabs >li{
+//   float:right
+// }
+// .col-md-8 {
+//   float: right;
+//   width: 66.66666667%;
+//   padding: 0;
+// }
+// .col-md-4 {
+//   float: right;
+//   width: 33.33%;
+//   padding: 0;
+// }
 
-.clear-fix {
-  clear: both;
-}
-.row {
-  margin-right: 15px;
-  margin-left: 15px;
-}
+// .clear-fix {
+//   clear: both;
+// }
+// .row {
+//   margin-right: 15px;
+//   margin-left: 15px;
+// }
 span {
   display: block;
 }

@@ -14,6 +14,19 @@ function myFunction() {
   }
 }
 
+$(function() {
+  "use strict";
+  var header = $(".top-header"),
+    navbar = $("nav");
+  $(window).scroll(function() {
+    if (
+      $(window).scrollTop() >= header.height()
+        ? navbar.addClass("sticky navbar-fixed-top")
+        : navbar.removeClass("sticky navbar-fixed-top")
+    );
+  });
+});
+
 /*validation form */
 
 //   const form = document.getElementById("form");
@@ -32,13 +45,12 @@ function myFunction() {
 //     error.classList.add('alert');
 //     error.innerHTML = `
 //     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> خطا في اسم المستخدم او كلمة المرور
-    
+
 //     `
 //   }else{
 //     error.classList.remove('alert');
 
 //     error.innerHTML=" "
 //   }
-  
-// });
 
+// });

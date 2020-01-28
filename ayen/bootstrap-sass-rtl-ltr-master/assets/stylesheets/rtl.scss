@@ -1,0 +1,41 @@
+@mixin single-side-border-radius($side, $radius) {
+	border-bottom-#{$side}-radius: $radius;
+    border-top-#{$side}-radius: $radius;
+}
+
+/**
+ * helpers use in float,text-align, padding, margin, etc.
+ */
+$direction: rtl;
+$dir-mode-align: right;
+$dir-mode-align-inverse: left;
+$dir-mode-font-size-base: 15px;
+
+//** font settings 
+
+@font-face {
+  font-family: 'IranianSerifWeb';
+  src: url('../fonts/farsi_fonts/IranianSerifWeb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face{
+	font-family:WebMitra;
+	font-weight:700;
+	font-style:normal;
+	src:url(../fonts/farsi_fonts/WebMitra-Bold.woff) format("woff")
+}
+
+@font-face{
+	font-family:WebMitraLatin;
+	font-weight:700;
+	font-style:normal;
+	src:url(../fonts/farsi_fonts/WebMitraLatin-Bold.woff) format("woff")
+}
+
+
+$dir-mode-font-family-sans-serif: IranianSerifWeb, Helvetica, tahoma, Helvetica, Arial, sans-serif ;
+$dir-mode-font-family-serif:   WebMitra, WebMitraLatin, Georgia, "Times New Roman", Times, serif ;
+

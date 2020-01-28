@@ -1,0 +1,17 @@
+@mixin single-side-border-radius($side, $radius) {
+	border-bottom-#{$side}-radius: $radius;
+  border-top-#{$side}-radius: $radius;
+}
+
+
+/**
+ * helpers use in float,text-align, padding, margin, etc.
+ */
+$direction: ltr;
+$dir-mode-align: right;
+$dir-mode-align-inverse: left;
+$dir-mode-font-size-base: 14px;
+
+$dir-mode-font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$dir-mode-font-family-serif:       Georgia, "Times New Roman", Times, serif;
+

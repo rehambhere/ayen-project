@@ -12,140 +12,229 @@
     />
 <!--botstrap css file-->
       <link rel="stylesheet" href="./css/app.css">
-    <link rel="stylesheet" href="./css/requestPage/requestPage.css" />
+    <link rel="stylesheet" href="./css/requestPagecode/requestPagecode.css" />
   </head>
   <body>
       <!--top-header -->
       <div class="top-header">
-          <div class="container">
-            <div class="col-md-12-c">
-                <div class="social-media"style="text-align: left;" >
-                    <ul>
-                        <li class="phone-number">
-                              +966 55 212 6565 
-                           </li>
-                        <li><a href=""><img src="./img/whatsapp-icon (1).svg"></a></li>
-                        <li><a href=""><img src="./img/twitter-logo (2).svg"/></a></li>
-                        <li><a href=""><img src="./img/instagram-logo (2).svg"/></a></li>
-                        <li><a href=""><img src="./img/linkedin-logo.svg"/></a></li>
-            
-                    </ul>
-                </div>
-              </div>
-          </div>
+        <div class="container">
+          <div class="col-md-12-c">
+              <div class="social-media"style="text-align: left;" >
+                  <ul>
+                      <li class="phone-number">
+                            +966 55 212 6565 
+                         </li>
+                      <li><a href=""><img src="./img/whatsapp-icon (1).svg"></a></li>
+                      <li><a href=""><img src="./img/twitter-logo (2).svg"/></a></li>
+                      <li><a href=""><img src="./img/instagram-logo (2).svg"/></a></li>
+                      <li><a href=""><img src="./img/linkedin-logo.svg"/></a></li>
           
-      </div>
-      <div class="clear-fix"></div>
-    <!--header-->
-    <div class="header" id="header">
+                  </ul>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="clear-fix"></div>
+  <!--header-->
+  <div class="col-md-12" >
+    <nav class="navbar navbar-default header" id="header">
       <div class="container">
-        <div class="content-header">
-          <ul class="nav">
-            <li><a href="">عن عاين</a></li>
-            <li><a href="">حساب تكلفة الفحص</a></li>
-            <li><a href="">المدونة</a></li>
-            <li><a href="">تواصل معنا</a></li>
-            <li><a href="">حساب جديد</a></li>
-            <li><button class="btn btn-brimary">تسجيل الدخول</button></li>
-          </ul>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <div class="logo">
             <img src="./img/ayen-logo.svg" alt="logo" draggable="false" />
           </div>
         </div>
-      </div>
-    </div>
-    <!--end header-->
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+
+            <li class="">
+              <a href="#" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="img/notification-icon.svg" class="notfication">
+                 <span class="badge badge-pill badge-danger">3</span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#"><img src="/img/inspector-avatar-heder.png" class="avater"></a></li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+  </div>
+ 
+  <!--end header-->
 
     <!--start card-->
     <section class="content">
-         <div class="container">
-             <div class="main-controaller-content-top">
-                <div class="col-md-6-l">
-                    <!--start card top-->
-                    <div class="title">لوحة التحكم</div>
-               </div>
-                <div class="col-md-6-l">
-                    <div class="col-md-4">
-                     <ul class="breadcrumb-custom">
-                         <li><a href="">الرئيسية<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
-                            <li><a href="">الطلبات</li>
-                        </ul>
+      <div class="container">
+        
+         <div class="main-plane-controaller">
+                 <div class="col-md-3">
+                    <div class="col-md-12 hidden-xs hidden-sm">
+                     <div class="card-item side-nav">
+                         <div class="top">
+                             <img src="./img/inspector-avatar.png">
+                             <span class="sub">اسم الشخصي</span>
+                         </div>
+                     </div>
                     </div>
-                   
+                    <div class="col-md-12 hidden-xs">
+                     <div class=" card-item card-list">
+                         <ul class="list-group">
+                             <li class="item ">
+                               <a href="#" class="link-list active ">
+                                 <img src="./img/home-icom.svg">
+                                     الرئيسية
+                               </a>
+                             </li>
+                             
+                             <li class="item">
+                               <a href="#" class="link-list" >
+                                 <img src="./img/requests-icon.svg">
+                                 الطلبات
  
-            </div>
-            <div class="col-md-6-l">
-              3
-               </div>
-             </div><!--end card-top-->
-           
+                               </a>
+                             </li>
+                             <li class="item">
+                               <a href="#" class="link-list">
+                                 <img src="./img/financials-icon.svg">
+                                 المعاملات المالية
+                               </a>
+                             </li>
+                             <li class="item">
+                               <a href="#" class="link-list">
+                                 <img src="./img/support-icon.svg">
+                                 الدعم
+ 
+                               </a>
+                             </li>
+                             <li class="item">
+                               <a href="#" class="link-list">
+                                 <img src="./img/settings-icon.svg">
+                                 الإعدادات
+ 
+                               </a>
+                             </li>
+                           </ul>
+                     </div>
+                    </div>
+                 </div>
                
-            <div class="main-plane-controaller">
-                    <div class="col-md-3 p-l-r">
-                       <div class="col-md-12">
-                        <div class="card-item side-nav">
-                            <div class="top">
-                                <img src="./img/inspector-avatar.png">
-                                <span class="sub">اسم الشخصي</span>
-                            </div>
-                        </div>
-                       </div>
-                       <div class="col-md-12">
-                        <div class=" card-item card-list">
-                            <ul class="list-group">
-                                <li class="item ">
-                                  <a href="#" class="link-list active ">
-                                    <img src="./img/home-icom.svg">
-                                        الرئيسية
-                                  </a>
-                                </li>
-                                
-                                <li class="item">
-                                  <a href="#" class="link-list" >
-                                    <img src="./img/requests-icon.svg">
-                                    الطلبات
-    
-                                  </a>
-                                </li>
-                                <li class="item">
-                                  <a href="#" class="link-list">
-                                    <img src="./img/financials-icon.svg">
-                                    المعاملات المالية
-                                  </a>
-                                </li>
-                                <li class="item">
-                                  <a href="#" class="link-list">
-                                    <img src="./img/support-icon.svg">
-                                    الدعم
-    
-                                  </a>
-                                </li>
-                                <li class="item">
-                                  <a href="#" class="link-list">
-                                    <img src="./img/settings-icon.svg">
-                                    الإعدادات
-    
-                                  </a>
-                                </li>
-                              </ul>
-                        </div>
-                       </div>
-                    </div>
-                  
-                    <!--main card -->
-                    <div class="col-md-8">
-                        <div class="main-controaller-content">
-                            <ul class="nav nav-tabs " style="direction: rtl;">
-                                <li role="presentation" class="active"><a href="#">Home</a></li>
-                              </ul>
-                                </div>
-                            </div>
-                        </div><!--end main-card-->
 
-                        </div>
-                        
+                 <div class="col-md-9">
+                   <div class="main-controaller-content-top">
+                     <div class="col-md-12 col-sm-12 col-xs-12">
+                         <!--start card top-->
+                         <div class="title">لوحة التحكم</div>
                     </div>
-    </section>
+                    <!--breadcrumb-custom-->
+                     <div class="col-md-12">
+                          <ul class="breadcrumb-custom">
+                              <li><a href="">الرئيسية<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
+                                 <li><a href="">الطلبات<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
+                                 <li><a href="">طلب #152458</a></li>
+                             </ul>
+                         </div>
+                         <!--breadcrumb-custom-->
+                      <!--info section thins page-->
+                        <div class="col-md-12">
+                          <div class="info-section card-item">
+                            <ul class="info">
+                              <li class="title-info">رقم الطلب</li>
+                              <li class="des-info">152458</li>
+                              <li class="button"><button class="btn btn-color btn-danger-c">قيد المعالجة</button></li>
+                            </ul>
+                          </div>
+                        </div>
+                    
+                 </div>
+                     <div class="main-controaller-content">
+                         <div class="col-md-12 col-xs-12">
+                           <!--start tab-->
+                           <ul class="nav nav-tabs">
+                            <li class="active"><a href="#checkup" data-toggle="tab">تفاصيل الطلب</a></li>
+                            <li><a href="#repo" data-toggle="tab">Menu 2</a></li>
+                          </ul>
+                          <div class="tab-content card-item">
+                            <div class="tab-pane active" id="checkup">
+                              <div class="tab-card">
+                                <div class="grid-3">
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+
+                                </div>
+                                <div class="grid-3">
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+                                  <div>1</div>
+
+                                </div>
+                                <div class="grid-2">
+                                  <div class="">ملاحظات</div>
+                                  <div class="">
+                                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                                  </div>
+                                </div>
+                                <div class="grid-2">
+                                 <div class="">الموفع</div>
+                                 <div class="">
+                                   <img src="/img/map-img.png">
+                                 </div>
+                               </div>
+                              </div>
+                            
+
+                            </div>
+                            <div class="tab-pane" id="repo">
+                              <div class="tab-card">
+                                <div class="box1">1</div>
+                                <div class="box2">2</div>
+                                <div class="box3">2</div>
+                                <div class="box4">4</div>
+                              </div>
+                            </div>
+                          </div>
+                           <!--end tab-->
+                             </div>
+                         </div>
+             
+                                 
+                             </div>
+                         </div>
+                     </div>
+
+                     </div>
+                     
+                 </div>
+ </section>
+
    
     <!--end -->
     <!--start footer--->

@@ -1,6 +1,7 @@
 /*padding*/
 $padding-midum: 15px;
 $padding-small: 1px;
+$padding-midum2: 5px;
 
 /*color*/
 $blue-light: #0885c2;
@@ -12,27 +13,25 @@ $main-color: #111934;
 $white: #fff;
 $light-error: #d9727f;
 $light-error2: #d9727f1a;
-$gray-light-2:#E7E8EB;
-$gray-bold-2:#CFD1D6;
-$gray-light-0:#EEEEEE;
-$yallow-border:#FFCF59;
-
+$gray-light-2: #e7e8eb;
+$gray-bold-2: #cfd1d6;
+$gray-light-0: #eeeeee;
+$yallow-border: #ffcf59;
 
 /*font*/
 $font-size: 12px;
-$font-head2: 15px;
-$font-size-lg:20px;
-$font-size-lg1:35px;
-$font-size-lg2:40px;
-$font-small:10px;
+$font-head2: 13px;
+$font-size-lg: 20px;
+$font-size-lg1: 35px;
+$font-size-lg2: 40px;
+$font-small: 10px;
 
 /*button*/
-$btn-danger:#D9727F;
-$btn-warning:#FFC545;
-$btn-success:#379B79;
-$btn-info:#585E71;
+$btn-danger: #d9727f;
+$btn-warning: #ffc545;
+$btn-success: #379b79;
+$btn-info: #585e71;
+$minWidth: 1200;
+$maxwidthMobile: 980px;
 
-
-
-
-
+$b-p-25: 25px;

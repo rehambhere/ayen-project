@@ -1,0 +1,36 @@
+.tab-card{
+
+    padding-right:30px;
+.grid-2{
+    display: grid;
+    background-color: red;
+    grid-template-columns: 1fr 5fr;
+    grid-auto-rows: minmax(35px, auto);
+    grid-gap: 1px;
+
+    img{
+        width:500px
+    }
+}
+.grid-3{
+    display: grid;
+    background-color: red;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-auto-rows: minmax(35px, auto);
+}
+   
+}
+
+.nav-tabs{
+    li{
+        a{
+            padding-right: 30px;
+        }
+    }
+}
+
+.item1{
+    background:green;
+    margin:5px;
+}
+
