@@ -1,22 +1,33 @@
-  <!--start form-->
-    <section class="content">
-        <div class="form" >
-            <div class="box-form">
-              <h3>تسجيل الدخول </h3>
-              <form class="register-form" id="form" method="GET" action="/">
-                  <label class="label">البريد الالكتروني</label>
-                  <input type="email" class="form-input" name="email" id="email" />
-                  <label class="label">كلمة المرور</label>
-                  <input type="bassword" class="form-input" name="password" id="password"/>
-                  <button class="btn btn-brimary login-btn" type="submit">تسجيل الدخول</button>
-      
-              </form>
-              <div id="error-alert">
-              </div>
-
-              <span class="note"> <a href="resetPassword.html" class="forget-pass"> نسيت كلمة المرور</a></span>
+<section class="content">
+      <div class="forms-box col-md-4 col-md-offset-4">
+        <div class="box-form">
+          <h3>تسجيل الدخول</h3>
+          <form class="register-form" id="form" method="GET" action="/">
+            <label class="label">البريد الالكتروني</label>
+            <input type="email" class="form-input" name="email" id="email" />
+            <label class="label">كلمة المرور</label>
+            <input
+              type="bassword"
+              class="form-input"
+              name="password"
+              id="password"
+            />
+            <button class="btn btn-brimary login-btn" type="submit">
+              تسجيل الدخول
+            </button>
+          </form>
+          <div id="error-alert">
+            <div class="alert">
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> خطا في اسم المستخدم او كلمة المرور
+    
             </div>
           </div>
+
+          <span class="note">
+            <a href="resetPassword.html" class="forget-pass">
+              نسيت كلمة المرور
+            </a></span
+          >
+        </div>
+      </div>
     </section>
-   
-    <!--end form-->

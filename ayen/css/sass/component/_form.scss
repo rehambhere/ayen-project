@@ -1,12 +1,9 @@
 .content {
   z-index: 1;
-  min-height: 500px;
-  .form {
+  min-height: 300px;
+  .forms-box {
     background: #fff;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
     .note {
       font-size: $font-size;
       margin-top: 15px;

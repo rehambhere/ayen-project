@@ -1,0 +1,41 @@
+ <div class="col-md-12 col-sm-12 reset-padd-bootstrap-media">
+                            <div class=" info-item card-list">
+                                <ul class="list-group">
+                                    <li class="item ">
+                                      <a href="#" class="link-list active ">
+                                        <img src="./img/home-icom.svg">
+                                           <span class="hidden-xs hidden-sm">الرئيسية</span>
+                                      </a>
+                                    </li>
+                                    
+                                    <li class="item">
+                                      <a href="#" class="link-list" >
+                                        <img src="./img/requests-icon.svg">
+                                          <span class="hidden-xs hidden-sm"> الطلبات</span>
+        
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/financials-icon.svg">
+                                        <span class="hidden-xs hidden-sm">المعاملات الماليه</span>
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/support-icon.svg">
+                                        <span class="hidden-xs hidden-sm">الدعم</span>        
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/settings-icon.svg">
+                                        <span class="hidden-xs hidden-sm">  
+                                        الإعدادات
+                                        </span>
+        
+                                      </a>
+                                    </li>
+                                  </ul>
+                            </div>
+                           </div>

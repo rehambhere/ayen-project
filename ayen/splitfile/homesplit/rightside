@@ -1,0 +1,53 @@
+
+                        <div class="col-md-3 col-sm-12  reset-padd-bootstrap reset-padd-bootstrap-media">
+                           <div class="col-md-12 hidden-xs hidden-sm">
+                            <div class="info-item side-nav">
+                                <div class="top">
+                                    <img src="./img/inspector-avatar.png">
+                                    <span class="sub">اسم الشخصي</span>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="col-md-12 col-sm-12 reset-padd-bootstrap-media">
+                            <div class=" info-item card-list">
+                                <ul class="list-group">
+                                    <li class="item ">
+                                      <a href="#" class="link-list active ">
+                                        <img src="./img/home-icom.svg">
+                                           <span class="hidden-xs hidden-sm">الرئيسية</span>
+                                      </a>
+                                    </li>
+                                    
+                                    <li class="item">
+                                      <a href="#" class="link-list" >
+                                        <img src="./img/requests-icon.svg">
+                                          <span class="hidden-xs hidden-sm"> الطلبات</span>
+        
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/financials-icon.svg">
+                                        <span class="hidden-xs hidden-sm">المعاملات الماليه</span>
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/support-icon.svg">
+                                        <span class="hidden-xs hidden-sm">الدعم</span>        
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/settings-icon.svg">
+                                        <span class="hidden-xs hidden-sm">  
+                                        الإعدادات
+                                        </span>
+        
+                                      </a>
+                                    </li>
+                                  </ul>
+                            </div>
+                           </div>
+                        </div>
+                      

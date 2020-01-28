@@ -1,0 +1,38 @@
+ <!--start footer--->
+    <section class="footer">
+      <div class="container">
+          <div class="copy-right">
+            <div class="col-md-6">
+                <div class="copy-writer">
+                  <p>جميع الحقوق محفوظة لمؤسسة عاين لتقنية نظم المعلومات © 2019</p>
+
+                </div>
+            </div>
+            <div class="col-md-6" >
+              <div class="social-media"style="text-align: left;" >
+            
+                  <ul>
+                      <li><a href=""><img src="./img/twitter-logo (1).svg"/></a></li>
+                      <li><a href=""><img src="./img/instagram-logo (1).svg"/></a></li>
+                      <li><a href=""><img src="./img/linkedin-logo (2).svg"/></a></li>
+          
+                  </ul>
+              </div>
+            </div>
+        </div>
+      
+ 
+ </section>
+ <!--end footer-->
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="./js/sidebarNavigation.js"></script>
+<script src="./js/main.js"></script>
+  </body>
+</html>
