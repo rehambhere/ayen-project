@@ -30,6 +30,7 @@
 
       .item {
         list-style: none;
+
         a {
           display: block;
         }
@@ -39,18 +40,24 @@
           padding: 12px;
           text-decoration: none;
           font-size: $font-size;
-          transition: all 0.5s ease-in-out;
+          transition: all 0.3s;
           color: $blue-bold;
+          position: relative;
+
+          border-right: 2px solid transparent;
+          letter-spacing: 0px;
 
           &:active {
             background-color: $gray-light-2;
             font-weight: bold;
           }
+
           &:hover {
-            font-weight: bold;
-            color: $blue-bold;
             background-color: $gray-light-2;
-            border-right: 2px solid $yallow-border;
+            border-right: 2px solid #ffcf59;
+            color: $blue-bold;
+            letter-spacing: 0px;
+            text-shadow: 0 0 0.65px $blue-bold, 0 0 0.65px $blue-bold;
           }
           img {
             margin-left: 5px;
@@ -176,9 +183,22 @@
 .content-header {
   display: none;
 }
-.main-plane-controaller .card-list .list-group .item .link-list:hover {
-  @media (max-width: $maxwidthMobile) {
-    border-top: 2px solid #ffcf59;
-    border-right: none;
+@media (max-width: $maxwidthMobile) {
+  .link-list {
+    border-right: none !important;
+
+    border-top: 2px solid transparent;
+
+    &:active {
+      background-color: $gray-light-2;
+      font-weight: bold;
+    }
+
+    &:hover {
+      border-right: none !important;
+
+      background-color: $gray-light-2;
+      border-top: 2px solid #ffcf59;
+    }
   }
 }

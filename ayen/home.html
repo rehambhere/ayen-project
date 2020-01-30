@@ -15,8 +15,16 @@
       rel="stylesheet"
     />
     <!--botstrap css file-->
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap.min.css
+    "/> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"/>
+
+
     <link rel="stylesheet" href="./css/app.css" />
+
     <link rel="stylesheet" href="./css/requestPage/requestPage.css" />
+
   </head>
   <body>
     <!--top-header -->
@@ -204,7 +212,7 @@
                                   
                                </div>
                                 <div class="col-md-12 col-sm-d col-xs-12 reset-padd-bootstrap reset-padd-bootstrap-media table-container-box">
-                                  <table class="table">
+                                  <table id="example" class="table table-striped table-bordered" style="width:100%">
                                     <h3 class="title-table"> احدث الطلبات</h3>
 
                                     <thead class="table-head">
@@ -222,28 +230,28 @@
                                         <td class="our-cell">987654</td>
                                         <td class="our-cell">محمد عبد الكريم</td>
                                         <td class="our-cell">25 اكتوبر 2020</td>
-                                        <td class="our-cell"><button class="btn btn-color btn-danger">قيد المعالجة</button></td>
+                                        <td class="our-cell"><button class="btn btn-color btn-danger-c">قيد المعالجة</button></td>
                                       </tr>
                                       <tr>
                                         <td class="our-cell">123456</td>
                                         <td class="our-cell">987654</td>
                                         <td class="our-cell">محمد عبد الكريم</td>
                                         <td class="our-cell">25 اكتوبر 2020</td>
-                                        <td class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></td>
+                                        <td class="our-cell"><button class="btn btn-color btn-warning-c">قيد الفحص</button></td>
                                       </tr>
                                       <tr>
                                         <td class="our-cell">123456</td>
                                         <td class="our-cell">987654</td>
                                         <td class="our-cell">محمد عبد الكريم</td>
                                         <td class="our-cell">25 اكتوبر 2020</td>
-                                        <td class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></td>
+                                        <td class="our-cell"><button class="btn btn-color btn-warning-c">قيد الفحص</button></td>
                                       </tr>
                                       <tr>
                                         <td class="our-cell">123456</td>
                                         <td class="our-cell">987654</td>
                                         <td class="our-cell">محمد عبد الكريم</td>
                                         <td class="our-cell">25 اكتوبر 2020</td>
-                                        <td class="our-cell"><button class="btn btn-color btn-info">مغلق</button></td>
+                                        <td class="our-cell"><button class="btn btn-color btn-info-c">مغلق</button></td>
 
                                       </tr>
                                       <tr>
@@ -251,12 +259,12 @@
                                         <td class="our-cell">987654</td>
                                         <td class="our-cell">محمد عبد الكريم</td>
                                         <td class="our-cell">25 اكتوبر 2020</td>
-                                        <td class="our-cell"><button class="btn btn-color btn-success">تم التسليم</button></td>
+                                        <td class="our-cell"><button class="btn btn-color btn-success-c">تم التسليم</button></td>
 
                                       </tr>     
                                     
                                     </tbody>
-                                  </table><!--end table-->
+                                </table>
                                     </div>
                     
                                         
@@ -304,5 +312,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="./js/sidebarNavigation.js"></script>
 <script src="./js/main.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.20/datatables.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+   $('#example').DataTable( {
+       "order": [[ 3, "desc" ]],
+       'paging'      : false,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : false,
+      'info'        : false,
+      'autoWidth'   : false,
+      "scrollX": true
+
+
+   } );
+} );
+</script>
   </body>
 </html>

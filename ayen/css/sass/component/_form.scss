@@ -3,6 +3,7 @@
   min-height: 300px;
   .forms-box {
     background: #fff;
+    width: 460px;
 
     .note {
       font-size: $font-size;
@@ -30,7 +31,6 @@
 
   .box-form {
     z-index: 1;
-    width: 460px;
     // margin:0 auto 100px;
     padding: 40px;
     padding-top: 25px;
@@ -66,4 +66,11 @@
   font-size: $font-size;
   color: $gray-bold;
   padding: 15px 0;
+}
+
+@media only screen and(max-width: 981px) {
+  .content .forms-box {
+    width: 350px;
+    margin: auto;
+  }
 }

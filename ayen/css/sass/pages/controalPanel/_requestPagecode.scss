@@ -1,9 +1,19 @@
+.header .container .content-header .nav {
+  .custom-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
 
-.header .container .content-header .nav{
-    .custom-nav{
-        display: flex;
-        justify-content: flex-end;
+.main-plane-controaller {
+  .main-controaller-content {
+    .title {
+      margin-bottom: 0;
     }
+    .container-card-box {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 // .box2{

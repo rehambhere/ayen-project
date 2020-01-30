@@ -38,3 +38,46 @@
 .btn-info-c {
   background: $btn-info;
 }
+
+.btn-dark {
+  background-color: #111934;
+  background: #111934 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 2px #00000014;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #111934;
+    background: #111934 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000014;
+    border-radius: 10px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+  }
+}
+.btn-gray {
+  background: #cfd1d6 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 2px #00000014;
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 15px;
+  font-weight: bold;
+
+  color: black;
+  &:hover,
+  &:active,
+  &:focus {
+    background: #cfd1d6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000014;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+    color: black;
+  }
+}

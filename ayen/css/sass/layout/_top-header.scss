@@ -5,10 +5,10 @@
   z-index: 1000;
   .social-media {
     @include social-media;
-    margin-left: 50px;
+    // margin-left: 50px;
+    padding-top: 5px;
     ul {
       li {
-          
         a {
           padding: 3px;
           img {
@@ -22,9 +22,8 @@
 }
 
 li.phone-number {
-    direction: ltr;
-    font-weight: normal;
-    color:$blue-bold;
-    font-size: $font-size;
-  }
-
+  direction: ltr;
+  font-weight: normal;
+  color: $blue-bold;
+  font-size: $font-size;
+}

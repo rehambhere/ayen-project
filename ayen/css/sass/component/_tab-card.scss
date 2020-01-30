@@ -1,36 +1,104 @@
-.tab-card{
+.tab-content {
+  background: $white;
+  min-height: 500px;
+  box-shadow: 0px 2px 2px #00000014;
+}
+.tab-card {
+  padding-bottom: 15px;
+  h3 {
+    color: #111934;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  span {
+    margin-top: 21px;
+    color: #707585;
+    font-size: 12px;
+  }
+  .box {
+    border-bottom: 1px solid $gray-light-0;
+    padding: 15px 0;
+  }
 
-    padding-right:30px;
-.grid-2{
-    display: grid;
-    background-color: red;
-    grid-template-columns: 1fr 5fr;
-    grid-auto-rows: minmax(35px, auto);
-    grid-gap: 1px;
-
-    img{
-        width:500px
+  img {
+    width: 100%;
+  }
+  p {
+    color: #707585;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+.nav-tabs {
+  li {
+    a {
+      color: #111934;
+      font-size: 12px;
+      font-weight: bold;
+      border: none;
+      background-color: #e7e8eb;
     }
+  }
 }
-.grid-3{
-    display: grid;
-    background-color: red;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-auto-rows: minmax(35px, auto);
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #111934;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
 }
-   
+.nav-tabs {
+  border: none;
+  border-radius: 5px;
 }
+.box-2 {
+  padding: 15px 0;
+}
+// .info-item-line {
+//   @media (max-width: $maxwidthMobile) {
+//     display: flex;
+//   }
+// }
 
-.nav-tabs{
-    li{
-        a{
-            padding-right: 30px;
-        }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .info-item-line {
+    display: flex;
+    justify-content: space-between;
+  }
+  .breadcrumb-custom li a {
+    font-size: 15px;
+  }
+  .tab-card {
+    h3,
+    span {
+      font-size: 15px;
     }
+  }
+  .nav-tabs > li.active > a {
+    font-size: 15px;
+  }
 }
 
-.item1{
-    background:green;
-    margin:5px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .info-item-line {
+    display: flex;
+  }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .info-item-line {
+    display: flex;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
