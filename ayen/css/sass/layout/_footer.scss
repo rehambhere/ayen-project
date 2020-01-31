@@ -6,7 +6,7 @@
   color: $white;
   z-index: 1000;
   position: relative;
-  margin-top: 10%;
+  margin-top: 8%;
   h2 {
     color: $blue-light;
     font-weight: bold;
@@ -56,4 +56,8 @@
       }
     }
   }
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+  margin-top: 30px;
 }

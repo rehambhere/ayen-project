@@ -141,3 +141,18 @@ a {
     padding: 0;
   }
 }
+
+.box-alert {
+  display: flex;
+  .alert-danger {
+    flex-grow: 2;
+  }
+}
+
+.info-code {
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 30px;
+  }
+}

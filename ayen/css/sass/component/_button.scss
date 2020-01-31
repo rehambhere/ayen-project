@@ -174,3 +174,17 @@
 .button-footer-box {
   margin-top: 30px;
 }
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  background-color: #111934;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span,
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  background-color: #e7e8eb;
+}

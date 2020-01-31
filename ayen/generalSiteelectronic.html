@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="./css/generalsite/generalSite.css" />
         <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/1.0.2/awesome-bootstrap-checkbox.min.css"/>
+      
       </head>
   <body>
     <!--top-header -->
@@ -274,7 +275,7 @@
                                    <div class="status">
                                      <h3 class="section-title">الحالة</h3>
                                      <button class="btn btn-success-c btn-status-success">متاح</button>
-                                     <button class="btn btn-success-c btn-status-closed">مغلق</button>
+                                     <button class="btn btn-success-c btn-status-closed">مفقود</button>
 
                                    </div>
                                  </div>
@@ -310,7 +311,8 @@
                                         <span class="red-c2" style="background-color: #61BC83;"></span>
                                         <span class="red-c1" style="background-color: #40B58D;"></span>
                                        </div>
-                                       <img src="./img/circle-button-icon.svg" class="img-circle">
+                                       <img src="./img/circle-button-icon.svg" class="img-circle" id="slider">
+
                                       </div>
                                      </div>
                                      <div class="col-sm-6">
@@ -342,7 +344,9 @@
                                           <span class="red-c2" style="background-color: #61BC83;"></span>
                                           <span class="red-c1" style="background-color: #40B58D;"></span>
                                          </div>
-                                       <img src="./img/circle-button-icon.svg" class="img-circle">
+                                        
+
+                                       <img src="./img/circle-button-icon.svg" class="img-circle" data-slider-handle="custom" id="ex11">
 
                                       </div>
                                      </div>
@@ -365,6 +369,29 @@
                                   <div class="col-sm-12">
                                     <div class="error-request">
                                       <h3 class="section-title">رموز الخلل</h3>
+                                      <div class="col-sm-12 reset-padd-bootstrap">
+                                        <div class="box-alert">
+                                          <div class="alert alert-danger" role="alert">
+                                            <div class="info-code">
+                                              <span>ELD04</span>
+                                              <img src="./img/general-photo-04.png"/>
+                                            </div>
+                                          </div>
+                                          <img src="./img/edit-icon.svg">
+                                          <img src="./img/delete-icon.svg">
+
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-12 reset-padd-bootstrap" >
+                                        <div class="box-alert">
+                                          <div class="alert alert-danger" role="alert">...</div>
+                                          <img src="./img/edit-icon.svg">
+                                          <img src="./img/delete-icon.svg">
+
+                                        </div>
+                                      </div>
+
+
                                       <!-- Small modal -->
                                       <button type="button" 
                                       class="btn btn-primary btn-error"
@@ -397,20 +424,11 @@
                                     </form>
                                        <button type="button" 
                                       class="btn btn-primary btn-count"
-                                       data-toggle="modal" 
-                                       data-target=".bs-example-modal-sm">
+                                      >
                                        <img src="./img/plus-icon.svg">
                                        إضافة عداد
                                       </button>
-
-                                      <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                                        <div class="modal-dialog modal-sm" role="document">
-                                          <div class="modal-content">
-                                            ...
-                                          </div>
-  </div>
-</div>
-                                  </div>
+                        </div>
                               </div>
                                   
                                  <!--end tab-->
@@ -589,13 +607,17 @@
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
     <!-- Bootstrap Js CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="./js/sidebarNavigation.js"></script>
 <script src="./js/main.js"></script>
+<script>
 
+  </script>
+</script>
 
   </body>
 </html>
