@@ -1,0 +1,143 @@
+.head-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.section-title {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.box-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $gray-default;
+  position: relative;
+
+  width: 120px;
+  height: 100px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #111934;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    &:hover {
+      color: white;
+    }
+
+    img {
+      width: 18px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  p {
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    color: $gray-light;
+    margin: 0;
+    padding: 5px;
+  }
+}
+.textareabackground {
+  background-color: $gray-default;
+}
+// .request-img,
+// .request-card {
+//   border-bottom: 1px solid #eeeeee;
+// }
+.request-footer-btn {
+  margin-top: 30px;
+}
+.back {
+  width: 100px;
+  padding: 0;
+  font-size: 10px;
+  height: 20px;
+  border-radius: 5px;
+  font-weight: normal;
+}
+.ok {
+  text-align: left;
+}
+.fixed {
+  padding-right: 0 !important;
+}
+
+.container-card {
+  display: flex;
+  .box-card {
+    margin-left: 12px;
+  }
+}
+.tab-content {
+  background-color: none !important;
+  background: transparent;
+  box-shadow: none;
+  min-height: 500px;
+}
+.status {
+  margin-bottom: 30px;
+}
+
+.alert-success {
+  display: flex;
+  justify-content: space-between;
+  background: #fafafb;
+  color: #111934;
+  max-height: 50px;
+  align-items: center;
+  transition: 0.3s;
+  position: relative;
+  .section-title {
+    padding: 0;
+    margin: 0;
+  }
+  .box-icon {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .arrow {
+    width: 5px;
+    margin-right: 15px;
+  }
+  .button-box {
+    display: flex;
+    .button-info-section {
+      display: none;
+      margin: 0;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+
+      img {
+        width: 25px;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.alert-success:hover {
+  .button-info-section {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}

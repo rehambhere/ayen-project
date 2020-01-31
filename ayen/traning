@@ -1,42 +1,377 @@
-      <div class="table">
-                                       <!-- start table-->
-                    <div class="table card-item">
-                        <h3 class="title-table">احدث الطلبات</h3>
-                            <div class="our-row table-head">
-                              <div class="our-cell">رقم الشكوى</div>
-                              <div class="our-cell">رقم العقد</div>
-                              <div class="our-cell">اسم العميل</div>
-                              <div class="our-cell">تاريخ الطلب</div>
-                              <div class="our-cell">حالة الطلب</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Collapsible sidebar using Bootstrap 3</title>
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="./style3.css" />
+    <!-- Scrollbar Custom CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap&subset=arabic"
+      rel="stylesheet"
+    />
+    <!--botstrap css file-->
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"/> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap.min.css"/>
+    
+
+    <link rel="stylesheet" href="./css/app.css" />
+
+    <link rel="stylesheet" href="./css/generalsite/generalSite.css" />
+
+
+  </head>
+  <body>
+    <!--top-header -->
+    <div class="top-header">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="social-media" style="text-align: left;">
+            <ul>
+              <li class="phone-number">
+                +966 55 212 6565
+              </li>
+              <li>
+                <a href=""><img src="./img/whatsapp-icon (1).svg"/></a>
+              </li>
+              <li>
+                <a href=""><img src="./img/twitter-logo (2).svg"/></a>
+              </li>
+              <li>
+                <a href=""><img src="./img/instagram-logo (2).svg"/></a>
+              </li>
+              <li>
+                <a href=""><img src="./img/linkedin-logo.svg"/></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear-fix"></div>
+    <div class="wrapper">
+      <!-- Sidebar Holder -->
+      <nav id="sidebar">
+          <div id="dismiss" class="col-sm-12">
+            <span>العودة</span>
+            <img src="./img/arrow-breadcrumbs-icon (1).svg"/>
+          </div>       
+
+      </nav><!--end navbar slide-->
+
+      <!-- Page Content Holder -->
+      <div id="content">
+
+        <nav class="navbar navbar-default header custom-navbar" id="header">
+          <div class="container">
+
+                <div class="navbar-header col-md-8 col-sm-4" style="float:right">
+                  <button
+                    type="button"
+                    class="navbar-toggle col-sm-2"
+                    id="sidebarCollapse"
+                    data-toggle="collapse"
+                    data-target="#myNavbar"
+
+                  >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+    
+                  <div class="logo">
+                    <img src="./img/ayen-logo.svg" alt="logo" draggable="false" />
+      
+                  </div>
+              </div>
+              <div class="clear-fix"></div>
+              <div class="col-md-4 col-sm-4 navbar-left" style="float:left">
+                <ul class="nav navbar-nav ">
+        
+                  <li class="logout-dropdown">
+                    <a href="#" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      <img src="./img/notification-icon.svg" class="notfication">
+                       <span class="badge badge-pill badge-danger">3</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="logout">
+                        <img src="./img/logout-icon.svg" class="logout-icon">
+                        <span>تسجيل الخروج</span>
+                      </a>
+                      </li>
+                
+                    </ul>
+                  </li>
+                  <li class="hidden-sm hidden-xs"><a href="#">اسم الشركة</a></li>
+                  <li><a href="#"><img src="/img/inspector-avatar-heder.png" class="avater"></a></li>
+                  </ul>
+              </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+   
+      </div>
+    </div>
+
+         <!--start card-->
+         <section class="content">
+    
+                <div class="main-plane-controaller">
+                  <div class="container">
+
+                        <div class="col-md-3 col-sm-12  reset-padd-bootstrap reset-padd-bootstrap-media">
+                           <div class="col-md-12 hidden-xs hidden-sm">
+                            <div class="info-item side-nav">
+                                <div class="top">
+                                    <img src="./img/inspector-avatar.png">
+                                    <span class="sub">اسم الشخصي</span>
+                                </div>
                             </div>
-                            <div class="our-row">
-                              <div class="our-cell">123456</div>
-                              <div class="our-cell">987654</div>
-                              <div class="our-cell">محمد عبد الكريم</div>
-                              <div class="our-cell">25 اكتوبر 2020</div>
-                              <div class="our-cell"><button class="btn btn-color btn-danger">قيد المعالجة</button></div>
+                           </div>
+                           <div class="col-md-12 col-sm-12 reset-padd-bootstrap-media">
+                            <div class=" info-item card-list">
+                                <ul class="list-group">
+                                    <li class="item ">
+                                      <a href="#./home.html" class="link-list active ">
+                                        <img src="./img/home-icom.svg">
+                                           <span class="hidden-xs hidden-sm">الرئيسية</span>
+                                      </a>
+                                    </li>
+                                    
+                                    <li class="item">
+                                      <a href="#./requestPage.html" class="link-list active" >
+                                        <img src="./img/requests-icon.svg">
+                                          <span class="hidden-xs hidden-sm"> الطلبات</span>
+        
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/financials-icon.svg">
+                                        <span class="hidden-xs hidden-sm">المعاملات الماليه</span>
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/support-icon.svg">
+                                        <span class="hidden-xs hidden-sm">الدعم</span>        
+                                      </a>
+                                    </li>
+                                    <li class="item">
+                                      <a href="#" class="link-list">
+                                        <img src="./img/settings-icon.svg">
+                                        <span class="hidden-xs hidden-sm">  
+                                        الإعدادات
+                                        </span>
+        
+                                      </a>
+                                    </li>
+                                  </ul>
                             </div>
-                            <div class="our-row">
-                              <div class="our-cell">123456</div>
-                              <div class="our-cell">987654</div>
-                              <div class="our-cell">محمد عبد الكريم</div>
-                              <div class="our-cell">25 اكتوبر 2020</div>
-                              <div class="our-cell"><button class="btn btn-color btn-warning">قيد الفحص</button></div>
-                            </div>
-                            <div class="our-row">
-                              <div class="our-cell">123456</div>
-                              <div class="our-cell">987654</div>
-                              <div class="our-cell">محمد عبد الكريم</div>
-                              <div class="our-cell">25 اكتوبر 2020</div>
-                              <div class="our-cell"><button class="btn btn-color btn-success">تم التسليم</button></div>
-                            </div>
-                            <div class="our-row">
-                              <div class="our-cell">123456</div>
-                              <div class="our-cell">987654</div>
-                              <div class="our-cell">محمد عبد الكريم</div>
-                              <div class="our-cell">25 اكتوبر 2020</div>
-                              <div class="our-cell"><button class="btn btn-color btn-info">مغلق</button></div>
-                            </div>
-                          
+                           </div>
+                        </div>
+                      
+    
+                        <div class="col-md-9 reset-padd-bootstrap">
+                          <div class="main-controaller-content">
+                                
+                            <div class="col-md-12 reset-padd-bootstrap">
+                              <!--start card top-->
+                                <h2 class="head-title m-b-0">الطلبات</h2>
+  
+                         </div>
+                         <!--bredcumb-->
+                         <div class="col-md-12 reset-padd-bootstrap ">
+                         
+                          <ul class="breadcrumb-custom">
+                            <li><a href="">الرئيسية<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
+                               <li><a href="">الطلبات<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
+                               <li><a href="">طلب #152458</a></li>
+                           </ul>
                           </div>
-                      </div><!--end table-->
+                          <!--bredcumb-->
+                         </div>
+                            <!--bredcumb-->
+                           <!--content-->
+                                <div class="col-md-12 col-sm-d col-xs-12 reset-padd-bootstrap reset-padd-bootstrap-media table-container-box">
+                                  <div class="col-sm-12">
+                                    <div class="request-header">
+
+                                    <h2 class="head-title">الموقع العام</h2>
+                                </div>
+                            </div><!--end request header-->
+                            <div class="col-sm-12">
+                                    <div class="request-img ">
+                                    <h3 class="section-title"> صورة عامة</h3>
+                                    <div class=" box-card">
+                                        <a href="#">
+                                          <img src="./img/add-photo-icon.svg">
+                                        </a>
+                                      </div>
+                                </div>
+                            </div><!--./end request-img-->
+                            <div class="request-card ">
+                              <h3 class="section-title">  البطاقات</h3>
+                              <div class="box-card">
+                                  <a href="#" class=" media"  data-toggle="modal" data-target="#myModal1">
+                                    <img src="./img/add-photo-icon.svg">
+                                    <p>إضافة / إزالة بطاقة</p>
+                                  </a>
+                                </div>
+                              
+                          </div>
+                      </div>
+                                    <div class="request-card">
+                                        <div class="col-sm-12">
+                                            <h3>البطاقات</h3>
+                                        </div>
+                                        <div class="box-card-request">
+                                           
+                                              <!-- <div class="col-xs-6 col-sm-1  ">
+                                                <a href="#repo" class="thumbnail" data-toggle="tab">
+                                                  <img src="..." alt="...">
+                                                </a>
+                                              </div>
+                                               -->
+                                              
+                                        </div>
+                                    </div><!--end request-card-->
+                                    <div class="status-request">
+                                        <div class="col-sm-12">
+                                            <h3>الحالة</h3>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <button class="btn btn-success-c">متاح</button>
+                                        <button class="btn btn-success-c">مفقود</button>
+                                        </div>
+                                    </div><!--end status request-->
+                                    <div class="request-style">
+                                        <div class="col-sm-12">
+                                            <h3>المظهر</h3>
+                                        </div>
+                                        <div class="">
+                                            <div class="col-sm-6">
+                                                2
+                                            </div>
+                                            <div class="col-sm-6">
+                                                2
+                                            </div>
+                                        </div>
+                                    </div><!--end request style-->
+                                    <div class=" tab-content request-floor">
+                                        <div class="col-sm-12  tab-pane active" id="floor">
+                                            <h3> صور الارضيات</h3>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-2 tab-pane" id="repo">
+                                            <a href="#" class="thumbnail">
+                                              <img src="..." alt="...">
+                                            </a>
+                                          </div>
+
+                                    </div><!--end request-floor-->
+                                   
+                                    
+                                    <div class="request-error">
+                                        <div class="col-sm-12">
+                                            <h3>رموز الخلل</h3>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <!-- Small modal -->
+                                            <!-- Button trigger modal -->
+                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+                                                       اضافة الخلل
+                                                    </button>
+                                                    
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                        <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                            ...
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </div> <!-- Modal -->
+                                        </div><!--./request-error-->
+                                    </div>
+                                    <div class="col-sm-12">
+                                      <div class="request-note ">
+                                      <h3 class="section-title"> الملاحظات</h3>
+                                      <div class="request-textarea">
+                                              <div class="form-group ">
+                                                  <textarea class="form-control textareabackground" id="message-text" rows="8" cols="50"></textarea>
+  
+                                                </div>
+                                      </div>
+                                  </div>
+                              </div>
+                             </div><!--./end content-->
+                             <div class="request-footer-btn">
+                                 <div class="col-sm-6">
+                                     2
+                                 </div>
+                                 <div class="col-sm-6">
+                                    2
+                                </div>
+                             </div>                     
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                     
+        </section>
+   <!--end -->
+    <!--start footer--->
+    <section class="footer">
+      <div class="container">
+          <div class="copy-right">
+            <div class="col-md-6">
+                <div class="copy-writer">
+                  <p>جميع الحقوق محفوظة لمؤسسة عاين لتقنية نظم المعلومات © 2019</p>
+
+                </div>
+            </div>
+            <div class="col-md-6" >
+              <div class="social-media"style="text-align: left;" >
+            
+                  <ul>
+                      <li><a href=""><img src="./img/twitter-logo (1).svg"/></a></li>
+                      <li><a href=""><img src="./img/instagram-logo (1).svg"/></a></li>
+                      <li><a href=""><img src="./img/linkedin-logo (2).svg"/></a></li>
+          
+                  </ul>
+              </div>
+            </div>
+        </div>
+      
+ 
+ </section>
+ <!--end footer-->
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="./js/sidebarNavigation.js"></script>
+<script src="./js/main.js"></script>
+
+
+  </body>
+</html>

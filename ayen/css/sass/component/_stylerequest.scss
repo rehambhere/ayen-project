@@ -1,0 +1,49 @@
+.stylerequest-color {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 13px;
+  z-index: 1000;
+  overflow: hidden;
+  position: relative;
+
+  .img-circle {
+    position: absolute;
+    width: 20px;
+    z-index: 99999;
+    top: 15px;
+    right: 0;
+  }
+  .number-request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    span {
+      color: $gray-bold;
+      font-size: 10px;
+    }
+  }
+  .color-span {
+    display: flex;
+    padding: 10px 15px;
+
+    span {
+      width: 80px;
+      height: 4px;
+      background-color: red;
+      margin: 1px;
+    }
+  }
+  img {
+    width: 15px;
+    margin: 0;
+  }
+}
+.color-span span:first-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.color-span span:last-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

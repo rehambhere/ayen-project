@@ -137,14 +137,14 @@
                             <div class=" info-item card-list">
                                 <ul class="list-group">
                                     <li class="item ">
-                                      <a href="#" class="link-list active ">
+                                      <a href="#./home.html" class="link-list active ">
                                         <img src="./img/home-icom.svg">
                                            <span class="hidden-xs hidden-sm">الرئيسية</span>
                                       </a>
                                     </li>
                                     
                                     <li class="item">
-                                      <a href="#" class="link-list" >
+                                      <a href="#./requestPage.html" class="link-list active" >
                                         <img src="./img/requests-icon.svg">
                                           <span class="hidden-xs hidden-sm"> الطلبات</span>
         
@@ -184,6 +184,18 @@
                                 <!--start card top-->
                                   <div class="title">لوحة التحكم</div>
     
+                           </div>
+                           <div class="col-sm-12 ">
+                             <div class="col-sm-6">
+                              <ul class="breadcrumb-custom">
+                                <li><a href="">الرئيسية<img src="./img/arrow-breadcrumbs-icon.svg"></a></li>
+                                   <li><a href="">الطلبات</a></li>
+                               </ul>
+                             </div>
+                             <div class="col-sm-6 top-search">
+
+                             </div>
+                             
                            </div>
                            
                                 <div class="col-md-12 col-sm-d col-xs-12 reset-padd-bootstrap reset-padd-bootstrap-media table-container-box">
@@ -389,6 +401,7 @@ $('.dataTables_filter input').attr('placeholder', 'Search');
 $(".dataTables_filter").append("<button class='btn btn-warning-c'>welcome</button>");
 var $label = document.getElementsByTagName("INPUT")[0].closest("label");
 $label.replaceWith(document.getElementsByTagName("INPUT")[0]);
+$('div.dataTables_filter').appendTo(".top-search")
 
 } );
 </script>

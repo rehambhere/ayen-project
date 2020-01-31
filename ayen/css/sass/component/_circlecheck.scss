@@ -1,0 +1,15 @@
+.circle-check {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #40b58d;
+
+  line-height: 15px;
+  text-align: center;
+  font-size: 10px;
+  color: #40b58d;
+  direction: rtl;
+}
