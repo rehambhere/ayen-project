@@ -156,3 +156,23 @@ a {
     width: 30px;
   }
 }
+.box-alert {
+  &.danger {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    span {
+      line-height: 30px;
+    }
+    .alert-danger {
+      padding: 5px 15px;
+      text-align: center;
+      align-items: center;
+    }
+    .edit,
+    .delete {
+      width: 40px;
+      margin: 0 12px;
+    }
+  }
+}

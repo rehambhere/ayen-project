@@ -916,6 +916,21 @@ a {
   .info-code img {
     width: 30px; }
 
+.box-alert.danger {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+  .box-alert.danger span {
+    line-height: 30px; }
+  .box-alert.danger .alert-danger {
+    padding: 5px 15px;
+    text-align: center;
+    align-items: center; }
+  .box-alert.danger .edit,
+  .box-alert.danger .delete {
+    width: 40px;
+    margin: 0 12px; }
+
 .modal {
   background: rgba(0, 0, 0, 0.5);
   align-items: center;
